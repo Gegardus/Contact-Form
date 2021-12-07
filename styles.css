@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@100&family=Roboto&display=swap");
-* {
-  /* border: 1px solid red; */
-}
 
 .footer {
   height: 810px;
@@ -16,7 +13,7 @@
   height: 216px;
   width: 327px;
   left: 0;
-  top: 0;  
+  top: 0;
   font-family: Inter;
   font-size: 32px;
   font-style: normal;
@@ -26,8 +23,10 @@
   text-align: center;
 }
 
-
-form,form ul,.name,.mail {
+form,
+form ul,
+.name,
+.mail {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -38,7 +37,7 @@ form,form ul,.name,.mail {
   height: 18px;
   width: 295px;
   left: 16px;
-  top: 15px;  
+  top: 15px;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -52,16 +51,16 @@ form,form ul,.name,.mail {
 }
 
 .blog {
-  background-color: #fbf8f7;    
+  background-color: #fbf8f7;
   height: 114px;
-  width: 327px;  
+  width: 327px;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
-  text-align: left;  
+  text-align: left;
   margin-top: 14px;
   margin-bottom: 14px;
 }
@@ -69,9 +68,8 @@ form,form ul,.name,.mail {
 .area {
   height: 90px;
   width: 303px;
-  margin: 12px;   
-  color: #3C3A39;
-
+  margin: 12px;
+  color: #3c3a39;
 }
 
 .touch {
@@ -116,21 +114,20 @@ ul#carte li {
 .angel {
   height: 20px;
   width: 14.166671752929688px;
- 
   top: 435px;
   border-radius: 0;
 }
 
 .twitter {
   height: 19.962478637695312px;
-  width: 19.985925674438477px; 
+  width: 19.985925674438477px;
   top: 473px;
   border-radius: 0;
 }
 
 .medium {
   height: 16px;
-  width: 20px;  
+  width: 20px;
   top: 513px;
   border-radius: 0;
 }
@@ -138,15 +135,14 @@ ul#carte li {
 .break {
   height: 3px;
   width: 327px;
-  left: 0px;
+  left: 0;
   top: 47px;
-  border-radius: 0;  
+  border-radius: 0;
 }
 
 .line {
   height: 5px;
   width: 134px;
-  /* left: 150px; */
   margin-left: 45px;
   top: 21px;
   border-radius: 10px;
@@ -159,4 +155,3 @@ ul#carte li {
 .touch:active {
   background: #f00;
 }
-

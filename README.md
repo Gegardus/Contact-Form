@@ -16,7 +16,7 @@ Contact-form
 
 ## Getting Started
 
-https://gegardus.github.io/Mobile-Version/
+https://gegardus.github.io/Contact-Form/
 
 ## Author
 
