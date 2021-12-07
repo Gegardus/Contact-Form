@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@100&family=Roboto&display=swap");
+* {
+  /* border: 1px solid red; */
+}
+
+.footer {
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbf8f7;
+}
+
+.invitation {
+  color: #172b4d;
+  height: 216px;
+  width: 327px;
+  left: 0;
+  top: 0;  
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+
+form,form ul,.name,.mail {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  height: 18px;
+  width: 295px;
+  left: 16px;
+  top: 15px;  
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #979493;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.blog {
+  background-color: #fbf8f7;    
+  height: 114px;
+  width: 327px;  
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;  
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.area {
+  height: 90px;
+  width: 303px;
+  margin: 12px;   
+  color: #3C3A39;
+
+}
+
+.touch {
+  height: 48px;
+  width: 127px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  margin-bottom: 104px;
+}
+
+ul#carte li {
+  height: 72px;
+  width: 375px;
+  color: #505f79;
+  position: relative;
+  right: 0;
+  display: inline;
+  padding: 2px;
+}
+
+.github {
+  height: 20px;
+  width: 17.985200881958008px;
+  top: 351px;
+  border-radius: 0;
+}
+
+.vector {
+  height: 16.965517044067383px;
+  width: 12.711573600769043px;
+  top: 397.03466796875px;
+  border-radius: 0;
+}
+
+.angel {
+  height: 20px;
+  width: 14.166671752929688px;
+ 
+  top: 435px;
+  border-radius: 0;
+}
+
+.twitter {
+  height: 19.962478637695312px;
+  width: 19.985925674438477px; 
+  top: 473px;
+  border-radius: 0;
+}
+
+.medium {
+  height: 16px;
+  width: 20px;  
+  top: 513px;
+  border-radius: 0;
+}
+
+.break {
+  height: 3px;
+  width: 327px;
+  left: 0px;
+  top: 47px;
+  border-radius: 0;  
+}
+
+.line {
+  height: 5px;
+  width: 134px;
+  /* left: 150px; */
+  margin-left: 45px;
+  top: 21px;
+  border-radius: 10px;
+}
+
+.touch:hover {
+  background: #0a6e2b;
+}
+
+.touch:active {
+  background: #f00;
+}
+

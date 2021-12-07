@@ -1,54 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mobile Version</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <section class="footer">
+        <p class="invitation">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
+        <form action="submission.html" method="POST">             
+          <ul>
+            <li class="name">
+             <label for="name"></label>
+             <input class="text" type="text" id="name" name="full_name" placeholder="Full name" minlength="3" maxlength="30" required>        
+             <img class="break" src="assets/images/Container.svg" alt="line">
+            </li>
 
-<body>
-    <Section>
-        <p class="invitation">I'm always interested in hearing about new projects, so if you'd like to chat please get
-            in touch.</p>
+            <li class="mail">  
+              <label for="mail"></label>        
+              <input class="text" type="email" id="mail" name="user_email" placeholder="Email address" required>       
+              <img class="break" src="assets/images/Container.svg" alt="line">
+            </li>
 
-        <form action="submission.html" method="POST">
+            <li class="blog">          
+              <label for="msg"></label>        
+              <textarea  class="area" type="textarea" id="msg" name="user_message" value="Enter text here" rows="10" cols="50" placeholder="Enter text here" minlength="7" maxlength="500" required></textarea>       
+            </li> 
 
-            <ul>
-                <li class="name">
-                    <label for="name"></label>
-                    <input class="text" type="text" id="name" name="full_name" placeholder="Full name" minlength="3"
-                        maxlength="30" required>
-                    <img class="break" src="assets/images/Container.svg" alt="line">
-                </li>
+             <li class="btn">
+              <button class="touch" type="submit" required>Get in touch</button>
+             </li>
+         </ul>
+      </form>           
 
-                <li class="mail">
-                    <label for="mail"></label>
-                    <input class="text" type="email" id="mail" name="user_email" placeholder="Email address" required>
-                    <img class="break" src="assets/images/Container.svg" alt="line">
-                </li>
-
-                <li class="blog">
-                    <label for="msg"></label>
-                    <textarea class="area" type="textarea" id="msg" name="user_message" value="Enter text here"
-                        rows="10" cols="50" placeholder="Enter text here" minlength="7" maxlength="500"
-                        required></textarea>
-                </li>
-
-                <li class="btn">
-                    <button class="touch" type="submit" required>Get in touch</button>
-                </li>
-            </ul>
-
-        </form>
-
-        <body>
-            <section class="footer">
-
-
-            </section>
-    </Section>
-</body>
-
+          <ul id="carte">
+            <li>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="github"
+                  src="assets/images/git.png"
+                  alt="github logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.vectorstock.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="vector-one"
+                  src="assets/images/i.png"
+                  alt="vector-one" />
+                <img
+                  class="vector-two"
+                  src="assets/images/n.png"
+                  alt="vector-two"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://angel.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="angel"
+                  src="assets/images/ang.png"
+                  alt="angel logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="twitter"
+                  src="assets/images/twit.png"
+                  alt="twitter logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://medium.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="medium"
+                  src="assets/images/med.png"
+                  alt="medium logo"
+              /></a>
+            </li>
+          </ul>
+         
+          <img class="line" src="assets/images/Shape.svg" alt="line">
+          <section>
+  </body>
 </html>
